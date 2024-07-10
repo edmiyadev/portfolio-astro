@@ -1,20 +1,14 @@
 ---
 import ContactBadge from "../components/ContactBadge.astro";
+import Nav from "../components/Nav.astro";
 import AvaterImage from "../../public/img/avatar.jpeg";
 ---
 
 <header>
-  <nav
-    class="flex flex-col items-center gap-2 md:flex-row md:justify-around md:max-w-md md:mx-auto md:my-3"
-  >
-    <a href="#index">Inicio</a>
-    <a href="#experience">Experiencia</a>
-    <a href="#projects">Proyectos</a>
-    <a href="#about">Sobre mi</a>
-  </nav>
+  <Nav />
 
   <section
-  id="index"
+    id="index"
     class="w-10/12 mx-auto flex justify-center gap-4 md:flex-row mt-10 md:items-center md:justify-between lg:items-start lg:mt-28"
   >
     <div class="md:w-2/3 lg:w-2/4">
@@ -90,7 +84,7 @@ import AvaterImage from "../../public/img/avatar.jpeg";
       <img
         class="hidden md:flex rounded-lg lg:size-80 md:size-60"
         src="../../public/img/avatar.jpeg"
-        alt=""
+        alt="foto de Edward Minaya"
       />
     </div>
   </section>
