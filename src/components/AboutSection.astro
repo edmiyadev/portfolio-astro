@@ -1,14 +1,13 @@
 ---
-
+import SectionHeader from "@components/SectionHeader.astro";
 ---
 
 <section
-id="about"
+  id="about"
   class="w-10/12 mx-auto flex flex-col justify-center items-center mt-10 md:items-center md:justify-start lg:items-start lg:mt-28 lg:flex-col"
 >
-  <div class="flex text-2xl items-end mb-3">
+  <SectionHeader title={"Sobre mi"}>
     <svg
-      xmlns="http://www.w3.org/2000/svg"
       width="32"
       height="32"
       viewBox="0 0 24 24"
@@ -17,26 +16,25 @@ id="about"
       stroke-width="2"
       stroke-linecap="round"
       stroke-linejoin="round"
-      class="icon icon-tabler icons-tabler-outline icon-tabler-user"
+      class="mr-2"
       ><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path
         d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path><path
         d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"></path></svg
     >
-    <h2 class="flex text-2xl items-end">Sobre mi</h2>
-  </div>
+  </SectionHeader>
 
-<div class="md:max-w-[800px]">
+  <div class="md:max-w-[800px]">
     <p class="mb-4">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
-        consequatur est, quam, at explicabo exercitationem sunt illum magni corporis
-        corrupti voluptatem. Fugit ipsum, molestiae velit tempora eum perferendis!
-        Architecto, accusamus.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita animi
-        recusandae qui accusantium ratione blanditiis magnam nulla, dolore debitis
-        fugit doloribus corrupti harum fugiat assumenda itaque sequi iusto illo
-        quam.
-      </p>
-</div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci,
+      consequatur est, quam, at explicabo exercitationem sunt illum magni
+      corporis corrupti voluptatem. Fugit ipsum, molestiae velit tempora eum
+      perferendis! Architecto, accusamus.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita animi
+      recusandae qui accusantium ratione blanditiis magnam nulla, dolore debitis
+      fugit doloribus corrupti harum fugiat assumenda itaque sequi iusto illo
+      quam.
+    </p>
+  </div>
 </section>
