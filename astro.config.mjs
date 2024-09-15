@@ -11,5 +11,7 @@ export default defineConfig({
       }
     }
   },
-  integrations: [tailwind()]
+  integrations: [tailwind()],
+  site: 'https://edmiyadev.github.io',
+  base: 'portfolio-astro'
 });
