@@ -1,2 +1,12 @@
+Dockefile
 node_modules
-.vscode
+dist
+
+# jetbrains setting folder
+.idea/
+
+# vscode configs
+.vscode/
+
+# macOS-specific files
+.DS_Store
